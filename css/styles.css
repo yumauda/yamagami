@@ -423,6 +423,111 @@ select::-ms-expand {
   color: #6d6d6d;
 }
 
+.p-footer {
+  background: url(../images/common/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 220px;
+  padding-top: 13.75rem;
+  padding-bottom: 38px;
+  padding-bottom: 2.375rem;
+}
+
+.p-footer__img {
+  max-width: 520px;
+  max-width: 32.5rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-footer__img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-footer__btn-wrapper {
+  margin-top: 66px;
+  margin-top: 4.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  gap: 1.25rem;
+}
+
+.p-footer__btn {
+  width: 260px;
+  width: 16.25rem;
+  height: 80px;
+  height: 5rem;
+  gap: 20px;
+  gap: 1.25rem;
+  border: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000000;
+  border-radius: 9999px;
+}
+
+.p-footer__btn-icon {
+  width: 80px;
+  width: 5rem;
+}
+
+.p-footer__btn-icon img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-footer__btn-text-ja {
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.p-footer__btn-text-en {
+  margin-top: 6px;
+  margin-top: 0.375rem;
+  color: #7cf513;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.p-footer__small {
+  text-align: center;
+  margin-top: 143px;
+  margin-top: 8.9375rem;
+}
+
+.p-footer__small small {
+  font-size: 12px;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: #fff;
+}
+
 .p-form__row-wrapper {
   position: relative;
   padding-top: 24px;
