@@ -21,3 +21,9 @@
   left: 0;
   right: 0;
 }
+.c-section-title--white {
+  color: #fff;
+}
+.c-section-title--white::before {
+  background: #fff;
+}
