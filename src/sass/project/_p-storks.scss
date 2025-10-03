@@ -1,0 +1,48 @@
+@use "global" as *;
+
+.p-storks {
+  display: flex;
+  align-items: center;
+  gap: rem(120);
+  background: #7cf513;
+  border-radius: rem(10);
+  padding: rem(20);
+}
+
+.p-storks__img {
+  max-width: rem(700);
+  width: 100%;
+}
+.p-storks__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: rem(10);
+}
+
+.p-storks__detail {
+  max-width: rem(682);
+  width: 100%;
+  flex: 1;
+}
+
+.p-storks__logo {
+  max-width: rem(600);
+  width: 100%;
+}
+.p-storks__logo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-storks__text {
+  margin-top: rem(60);
+  font-size: rem(23);
+  font-weight: 700;
+  color: #000;
+  line-height: calc(43 / 24);
+  letter-spacing: 0.1em;
+}
