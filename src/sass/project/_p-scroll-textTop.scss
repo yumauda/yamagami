@@ -1,0 +1,35 @@
+@use "global" as *;
+
+.section__marquee-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  margin-top: rem(40);
+}
+
+.section__marquee {
+  display: flex;
+  white-space: nowrap;
+  
+}
+
+.marquee__text {
+  display: inline-block;
+  padding-right: 0.5em;
+  animation: marquee 15s linear infinite;
+  color: #fff;
+  font-family: $second-font-family;
+  font-size: min(rem(80), calc(80 / 1920) * 100vw);
+  font-weight: 700;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

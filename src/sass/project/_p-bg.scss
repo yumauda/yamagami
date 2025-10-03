@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.p-bg--message {
+  background: url(../images/common/message_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: rem(20);
+  padding-right: rem(20);
+}

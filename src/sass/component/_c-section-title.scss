@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.c-section-title {
+  font-size: rem(24);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  @include mq(md) {
+    font-size: rem(36);
+  }
+}
+.c-section-title::before {
+  position: absolute;
+  content: "";
+  background: #000;
+  width: 100%;
+  height: 4px;
+  bottom: rem(-4);
+  left: 0;
+  right: 0;
+}

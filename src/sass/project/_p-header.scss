@@ -100,15 +100,25 @@
   color: #7cf513;
 }
 
-.p-header__scroll-wrapper {
+.p-header__scroll-box {
+  display: flex;
+  flex-direction: row;
+  gap: rem(6);
+  align-items: center;
+  width: rem(240);
+  height: rem(40);
   background: #000;
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
+  overflow: hidden;
+}
+
+.p-header__scroll-wrapper {
   display: flex;
   align-items: center;
   gap: rem(6);
-  height: rem(40);
-  width: rem(240);
+  white-space: nowrap;
+
 }
 
 .p-header__btn-scroll {
@@ -117,4 +127,21 @@
   letter-spacing: 0.1em;
   font-weight: 700;
   text-transform: uppercase;
+  display: inline-block;
+  padding-right: 0.5em;
+  animation: marquee 5s linear infinite;
+  font-family: $second-font-family;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee__text {
+  
 }

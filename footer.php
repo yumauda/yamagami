@@ -1,10 +1,15 @@
 <footer class="p-footer">
+    <div class="p-footer__grow">
+        <a href="#" class="p-footer__grow-link">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/totop.png" alt="growup" width="200" height="220">
+        </a>
+    </div>
     <div class="l-inner">
         <figure class="p-footer__img">
             <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/footer_img.png" alt="エントリーはこちらから" width="520" height="250">
         </figure>
         <div class="p-footer__btn-wrapper">
-            <a href="#" class="p-footer__btn">
+            <a href="<?php echo esc_url(home_url('/recruit')); ?>" class="p-footer__btn">
                 <div class="p-footer__btn-icon">
                     <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/footer_icon.png" alt="" width="24" height="24">
                 </div>
@@ -26,7 +31,19 @@
         <div class="p-footer__small">
             <small>© 2025 YAMAGAMI CO.,LTD.</small>
         </div>
-        
+        <div class="section__marquee-wrapper">
+            <div class="section__marquee">
+                <p class="marquee__text">YAMAGAMI&emsp;JOIN US</p>
+                <p class="marquee__text">YAMAGAMI&emsp;JOIN US</p>
+                <p class="marquee__text">YAMAGAMI&emsp;JOIN US</p>
+            </div>
+            <div class="section__marquee">
+                <p class="marquee__text">YAMAGAMI&emsp;JOIN US</p>
+                <p class="marquee__text">YAMAGAMI&emsp;JOIN US</p>
+                <p class="marquee__text">YAMAGAMI&emsp;JOIN US</p>
+            </div>
+        </div>
+
     </div>
 </footer>
 <?php wp_footer(); ?>

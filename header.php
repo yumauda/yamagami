@@ -8,58 +8,54 @@
     <!-- meta情報 -->
     <?php if (is_home() || is_front_page()) : ?>
         <title>山上｜採用サイト</title>
-        <meta name="description" content="横浜市港北区大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザライン)なども子供から大人まで安心の定額制です。" />
-        <meta name="keywords" content="矯正歯科,港北区,大倉山" />
-        <meta property="og:title" content="横浜市港北区大倉山の矯正専門歯科｜大倉山ファミリア矯正歯科（横浜市港北区）" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="" />
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://familiar-kyousei.com/">
-        <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg" />
-        <meta property="og:site_name" content="大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:description" content="横浜市大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザラン)なども子供から大人まで安心の定額制です。" />
-    <?php elseif (is_page('adult')) : ?>
-        <title>大人の矯正・成人矯正｜大倉山ファミリア矯正歯科（横浜市港北区）</title>
-        <meta name="description" content="横浜市港北区大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザライン)なども子供から大人まで安心の定額制です。" />
-        <meta name="keywords" content="矯正歯科,港北区,大倉山" />
-        <meta property="og:title" content="大人の矯正｜大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:type" content="article">
-        <meta property="og:url" content="https://familiar-kyousei.com/adult">
-        <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg" />
-        <meta property="og:site_name" content="大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:description" content="横浜市大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザラン)なども子供から大人まで安心の定額制です。" />
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+    <?php elseif (is_page('')) : ?>
+        <title>山上｜採用サイト</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
     <?php elseif (is_page((array('contact', 'confirm')))) : ?>
-        <title>お問い合わせ｜大倉山ファミリア矯正歯科（横浜市港北区）</title>
-        <meta name="description" content="横浜市港北区大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザライン)なども子供から大人まで安心の定額制です。" />
-        <meta name="keywords" content="矯正歯科,港北区,大倉山" />
-        <meta property="og:title" content="お問い合わせ｜大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:type" content="article">
-        <meta property="og:url" content="https://familiar-kyousei.com/contact">
-        <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg" />
-        <meta property="og:site_name" content="大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:description" content="横浜市大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザラン)なども子供から大人まで安心の定額制です。" />
+        <title>山上｜採用サイト</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
     <?php elseif (is_page('thanks')) : ?>
-        <title>送信完了｜大倉山ファミリア矯正歯科（横浜市港北区）</title>
-        <meta name="description" content="横浜市港北区大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザライン)なども子供から大人まで安心の定額制です。" />
-        <meta name="keywords" content="矯正歯科,港北区,大倉山" />
-        <meta property="og:title" content="送信完了｜大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:type" content="article">
-        <meta property="og:url" content="https://familiar-kyousei.com/thanks">
-        <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg" />
-        <meta property="og:site_name" content="大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:description" content="横浜市大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザラン)なども子供から大人まで安心の定額制です。" />
+        <title>山上｜採用サイト</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
     <?php elseif (is_single()) : ?>
-        <title><?php the_title() ?>｜大倉山ファミリア矯正歯科（横浜市港北区）</title>
-        <meta name="description" content="横浜市港北区大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザライン)なども子供から大人まで安心の定額制です。" />
-        <meta name="keywords" content="矯正歯科,港北区,大倉山" />
-        <meta property="og:title" content="<?php the_title() ?>｜大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:type" content="article">
-        <meta property="og:url" content="https://familiar-kyousei.com/adult">
-        <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg" />
-        <meta property="og:site_name" content="大倉山ファミリア矯正歯科（横浜市港北区）" />
-        <meta property="og:description" content="横浜市大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザラン)なども子供から大人まで安心の定額制です。" />
-
+        <title>山上｜採用サイト</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
     <?php endif; ?>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg">
+    <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/common/ogp.jpg" />
+
 
     <!-- ogp -->
     <!-- ファビコン -->
@@ -68,10 +64,7 @@
     <!-- css -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&family=Urbanist:wght@400;500;600&display=swap" rel="stylesheet">
-    <?php if (is_404()) : ?>
-        <meta http-equiv="refresh" content=" 3; url=<?php echo esc_url(home_url("/")); ?>">
-    <?php endif; ?>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <?php wp_head() ?>
 </head>
 
@@ -87,34 +80,41 @@
                 <nav class="p-header__nav">
                     <ul class="p-header__lists">
                         <li class="p-header__list">
-                            <a href="#" class="p-header__link">メッセージ</a>
+                            <a href="<?php echo esc_url(home_url('/message')); ?>" class="p-header__link">メッセージ</a>
                         </li>
                         <li class="p-header__list">
-                            <a href="#" class="p-header__link">仕事を知る</a>
+                            <a href="<?php echo esc_url(home_url('/works')); ?>" class="p-header__link">仕事を知る</a>
                         </li>
                         <li class="p-header__list">
-                            <a href="#" class="p-header__link">先輩を知る</a>
+                            <a href="<?php echo esc_url(home_url('/interview')); ?>" class="p-header__link">先輩を知る</a>
                         </li>
                         <li class="p-header__list">
-                            <a href="#" class="p-header__link">働く環境を知る</a>
+                            <a href="<?php echo esc_url(home_url('/growth')); ?>" class="p-header__link">働く環境を知る</a>
                         </li>
                         <li class="p-header__list">
-                            <a href="#" class="p-header__link">会社を知る</a>
+                            <a href="<?php echo esc_url(home_url('/company')); ?>" class="p-header__link">会社を知る</a>
                         </li>
                     </ul>
                     <div class="p-header__btn-wrapper">
-                        <a href="" class="p-header__btn">
+                        <a href="<?php echo esc_url(home_url('/recruit')); ?>" class="p-header__btn">
                             <p class="p-header__btn-text">募集要項</p>
                             <p class="p-header__btn-text--en">recruit</p>
                         </a>
-                        <div class="p-header__scroll-wrapper">
-                            <p class="p-header__btn-scroll">join us</p>
-                            <p class="p-header__btn-scroll">join us</p>
-                            <p class="p-header__btn-scroll">join us</p>
+                        <div class="p-header__scroll-box">
+                            <div class="p-header__scroll-wrapper">
+                                <p class="p-header__btn-scroll">join us</p>
+                                <p class="p-header__btn-scroll">join us</p>
+                                <p class="p-header__btn-scroll">join us</p>
+                            </div>
+                            <div class="p-header__scroll-wrapper">
+                                <p class="p-header__btn-scroll">join us</p>
+                                <p class="p-header__btn-scroll">join us</p>
+                                <p class="p-header__btn-scroll">join us</p>
+                            </div>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
-       
+
     </header>

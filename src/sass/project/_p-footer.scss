@@ -78,3 +78,33 @@
   font-weight: 700;
   color: #fff;
 }
+.dummy {
+}
+.dummy img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.p-footer__grow {
+  position: fixed;
+  bottom: rem(20);
+  right: rem(20);
+  z-index: 99;
+}
+
+.p-footer__grow-link {
+  display: inline-block;
+  @include mq(md) {
+    width: rem(150);
+  }
+  @include mq(lg) {
+    width: rem(200);
+  }
+}
+.p-footer__grow-link img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}

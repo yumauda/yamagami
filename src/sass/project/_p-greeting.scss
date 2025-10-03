@@ -1,0 +1,142 @@
+@use "global" as *;
+
+.p-greeting {
+  padding-left: rem(20);
+  padding-right: rem(20);
+  background: url(../images/common/greeting_bg.jpg);
+  padding-top: rem(200);
+  padding-bottom: rem(160);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p-greeting__content {
+}
+
+.p-greeting__title {
+  text-align: center;
+}
+
+.p-greeting__subtitle-wrapper {
+  margin-top: rem(60);
+}
+
+.p-greeting__subtitle {
+}
+
+.p-greeting__subtitle-text {
+  font-size: rem(70);
+  letter-spacing: 0.1em;
+  color: #000;
+  background: #7cf513;
+  width: fit-content;
+  display: block;
+}
+.p-greeting__subtitle-text + .p-greeting__subtitle-text {
+  margin-top: rem(8);
+}
+
+.p-greeting__row-wrapper {
+  margin-top: rem(80);
+}
+
+.p-greeting__row {
+  display: flex;
+  gap: rem(140);
+  @include mq(md) {
+    flex-direction: row;
+  }
+}
+.p-greeting__row:nth-child(2) {
+  @include mq(md) {
+    flex-direction: row-reverse;
+  }
+}
+.p-greeting__row + .p-greeting__row {
+  margin-top: rem(196);
+}
+.p-greeting__left {
+  max-width: rem(800);
+  width: 100%;
+}
+
+.p-greeting__block {
+}
+.p-greeting__block + .p-greeting__block {
+  margin-top: rem(80);
+}
+.p-greeting__block-title {
+  color: #7cf513;
+  font-size: rem(40);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.p-greeting__block-text {
+  margin-top: rem(40);
+  line-height: calc(36 / 20);
+  font-weight: 700;
+  font-size: rem(20);
+  letter-spacing: 0.1em;
+}
+
+.p-greeting__right {
+  max-width: rem(660);
+  width: 100%;
+}
+
+.p-greeting__img {
+}
+.p-greeting__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-greeting__img-row {
+  margin-top: rem(40);
+  display: flex;
+  align-items: center;
+  gap: rem(30);
+}
+
+.p-greeting__img-rowText {
+  font-size: rem(18);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.p-greeting__rowImg {
+  width: rem(188);
+}
+.p-greeting__rowImg img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-greeting__green {
+  margin-top: rem(40);
+  color: #7cf513;
+  font-size: rem(16);
+  letter-spacing: 0.1em;
+  line-height: calc(30 / 16);
+  font-family: $second-font-family;
+  font-weight: 500;
+}
+
+.p-greeting__big {
+  margin-top: rem(80);
+}
+
+.p-greeting__big-text {
+  font-size: rem(40);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #000;
+  line-height: calc(72 / 40);
+}
