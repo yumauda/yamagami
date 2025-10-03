@@ -1,0 +1,49 @@
+@use "global" as *;
+
+.p-page-mv {
+  padding-top: rem(20);
+}
+
+.p-page-mv__content {
+  padding-top: rem(160);
+}
+
+.p-page-mv__img {
+}
+.p-page-mv__img img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-page-mv__img--interview {
+  max-width: rem(1473);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-page-mv__detail {
+  text-align: center;
+}
+
+.p-page-mv__title {
+  font-size: rem(60);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #000;
+  text-align: center;
+}
+
+.p-page-mv__en {
+  display: block;
+  margin-top: rem(62);
+  text-align: center;
+  font-size: rem(60);
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-family: $second-font-family;
+}

@@ -444,6 +444,17 @@ select::-ms-expand {
   padding-right: 1.25rem;
 }
 
+.p-bg--interview {
+  background: url(../images/common/bg_interview.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+}
+
 .p-footer {
   background: url(../images/common/footer_bg.jpg);
   background-repeat: no-repeat;
@@ -1244,9 +1255,6 @@ input::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .p-header__home {
@@ -1699,6 +1707,175 @@ input::placeholder {
   background: #ed1c24;
   color: #fff;
   border: 1px solid #ed1c24;
+}
+
+.p-interview {
+  padding-top: 360px;
+  padding-top: 22.5rem;
+  padding-bottom: 180px;
+  padding-bottom: 11.25rem;
+}
+
+.p-interview__title {
+  text-align: center;
+}
+
+.p-interview__lists {
+  margin-top: 64px;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  gap: 2.5rem;
+}
+
+.p-interview__link {
+  display: block;
+  padding: 13px;
+  padding: 0.8125rem;
+  background: #fff;
+  border-radius: 0.625rem;
+  position: relative;
+}
+
+.p-interview__img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  border-radius: 0.625rem;
+}
+
+.p-interview__detail {
+  position: absolute;
+  bottom: 40px;
+  bottom: 2.5rem;
+  left: 40px;
+  left: 2.5rem;
+  z-index: 1;
+}
+
+.p-interview__year {
+  color: #7cf513;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.p-interview__row {
+  margin-top: 12px;
+  margin-top: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  gap: 1.25rem;
+}
+
+.p-interview__name {
+  font-size: 31px;
+  font-size: 1.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.p-interview__name-en {
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-family: "Jost", sans-serif;
+}
+
+.p-interview__occupation {
+  margin-top: 24px;
+  margin-top: 1.5rem;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.p-interview__bottom-row {
+  margin-top: 160px;
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 160px;
+  gap: 10rem;
+  max-width: 900px;
+  max-width: 56.25rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-interview__single {
+  margin-top: 60px;
+  margin-top: 3.75rem;
+}
+
+.p-page-mv {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+}
+
+.p-page-mv__content {
+  padding-top: 160px;
+  padding-top: 10rem;
+}
+
+.p-page-mv__img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-page-mv__img--interview {
+  max-width: 1473px;
+  max-width: 92.0625rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-page-mv__detail {
+  text-align: center;
+}
+
+.p-page-mv__title {
+  font-size: 60px;
+  font-size: 3.75rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #000;
+  text-align: center;
+}
+
+.p-page-mv__en {
+  display: block;
+  margin-top: 62px;
+  margin-top: 3.875rem;
+  text-align: center;
+  font-size: 60px;
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
 }
 
 .section__marquee-wrapper {
