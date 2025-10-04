@@ -6,6 +6,24 @@
   margin-top: rem(40);
   border-radius: rem(10);
   border: 2px solid #000;
+  position: relative;
+  overflow: clip;
+}
+.p-know::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/know_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1200 / 960;
+  object-fit: cover;
+  width: rem(1200);
+  height: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
 }
 .p-know__content {
   display: flex;

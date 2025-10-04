@@ -1,0 +1,45 @@
+@use "global" as *;
+
+.p-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: rem(20);
+}
+
+.p-benefits__list {
+  border: 1px solid #7cf513;
+  background: #000;
+  display: flex;
+  align-items: center;
+  gap: rem(20);
+  border-radius: rem(10);
+  height: rem(120);
+  padding-left: rem(40);
+  padding-right: rem(40);
+}
+
+.p-benefits__number {
+  letter-spacing: 0.1em;
+  color: #7cf513;
+  font-size: rem(20);
+  letter-spacing: 0.1em;
+  font-family: $second-font-family;
+  font-weight: 700;
+}
+
+.p-benefits__title {
+  font-size: rem(32);
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.06em;
+}
+
+.p-benefits__column {
+}
+.p-benefits__small {
+  font-size: rem(16);
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1em;
+  margin-top: rem(8);
+}

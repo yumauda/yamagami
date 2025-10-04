@@ -26,6 +26,7 @@
 }
 
 .p-event__top-right {
+  margin-top: rem(120);
 }
 
 .p-event__top-title {
@@ -282,4 +283,7 @@
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.1em;
+}
+.p-event__support {
+  margin-top: rem(58);
 }
