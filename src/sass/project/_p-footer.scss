@@ -1,6 +1,7 @@
 @use "global" as *;
 
 .p-footer {
+  overflow-x: clip;
   background: url(../images/common/footer_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;

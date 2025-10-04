@@ -34,7 +34,11 @@
   letter-spacing: 0.1em;
   font-weight: 700;
 }
-
+.p-social__top-title span {
+  background: #7cf513;
+  padding: rem(2) rem(4);
+  margin-right: rem(8);
+}
 .p-social__top-en {
   margin-top: rem(40);
   color: #000;
@@ -171,4 +175,7 @@
 }
 .mt40 {
   margin-top: rem(40);
+}
+.p-social__welfare {
+  margin-top: rem(60);
 }
