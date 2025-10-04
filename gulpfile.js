@@ -84,7 +84,10 @@ const imageminMozjpeg = require("imagemin-mozjpeg");
 const imageminPngquant = require("imagemin-pngquant");
 const imageminSvgo = require("imagemin-svgo");
 const imgImagemin = () => {
-  return src(srcPath.img)
+  return src([
+    srcPath.img,
+    '!src/images/common/*.svg' // 大きなSVGファイルを除外
+  ])
     .pipe(
       imagemin(
         [
@@ -98,6 +101,12 @@ const imgImagemin = () => {
       )
     )
     .pipe(dest(destPath.img));
+};
+
+// SVGファイルを手動でコピー（圧縮なし）
+const imgSvgCopy = () => {
+  return src('src/images/common/*.svg')
+    .pipe(dest(destPath.img + 'common/'));
 };
 
 // ファイルの変更を検知
@@ -136,7 +145,7 @@ const clean = (done) => {
 
 // npx gulpで出力する内容
 exports.default = series(
-  series(clean, cssSass, imgImagemin),
+  series(clean, cssSass, parallel(imgImagemin, imgSvgCopy)),
   parallel(watchFiles, browserSyncFunc)
 );
 

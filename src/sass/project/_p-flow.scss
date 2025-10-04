@@ -1,0 +1,121 @@
+@use "global" as *;
+
+.p-flow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: rem(15);
+  position: relative;
+}
+.p-flow::before {
+  position: absolute;
+  content: "";
+  background: #7CF513;
+  width: 90%;
+  height: rem(60);
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-flow__list {
+  background: #000;
+  border: 2px solid #7cf513;
+  border-radius: rem(10);
+  padding: rem(40);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.p-flow__list::before {
+  position: absolute;
+  content: attr(data-num) "";
+  background: #7cf513;
+  width: rem(60);
+  height: rem(58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: rem(-2);
+  left: rem(-2);
+  font-size: rem(17);
+  font-weight: 700;
+  color: #000;
+  font-family: $second-font-family;
+  letter-spacing: 0.1em;
+  border-top-left-radius: rem(10);
+  border-bottom-right-radius: rem(10);
+}
+.p-flow__list--last::before {
+  position: absolute;
+  content: attr(data-num) "";
+  background: #000;
+  width: rem(60);
+  height: rem(58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: rem(-2);
+  left: rem(-2);
+  font-size: rem(17);
+  font-weight: 700;
+  color: #fff;
+  font-family: $second-font-family;
+  letter-spacing: 0.1em;
+  border-top-left-radius: rem(10);
+  border-bottom-right-radius: rem(10);
+}
+.p-flow__list--last {
+  background: #7cf513;
+}
+.p-flow__top {
+  text-align: center;
+}
+
+.p-flow__title {
+  font-size: rem(32);
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.p-flow__title--last {
+  color: #000;
+}
+.p-flow__arrow {
+}
+.p-flow__arrow img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-flow__img {
+  margin-top: auto;
+  padding-top: rem(16);
+}
+.p-flow__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.mt36 {
+  margin-top: rem(20);
+}
+.p-flow__smallTitle {
+  font-size: rem(20);
+  font-weight: 700;
+  color: #7cf513;
+  letter-spacing: 0.1em;
+}
+
+.p-flow__text {
+  margin-top: rem(40);
+  color: #fff;
+  font-size: rem(20);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}

@@ -1,8 +1,5 @@
 <?php get_header(); ?>
-<main class="p-bg--growth">
-  <!-- <figure class="dummy">
-    <img src="<?php echo get_template_directory_uri() ?>/images/common/social_pc.jpg" alt="">
-  </figure> -->
+<main class="p-bg--growth"> 
   <section class="p-page-mv">
     <div class="l-inner">
       <div class="p-page-mv__content">

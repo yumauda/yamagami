@@ -1,8 +1,7 @@
 <?php get_header(); ?>
+
 <main class="p-bg--interview">
-  <!-- <figure class="dummy">
-    <img src="<?php echo get_template_directory_uri() ?>/images/common/home_pc.jpg" alt="">
-  </figure> -->
+
   <section class="p-page-mv">
     <div class="l-inner">
       <div class="p-page-mv__content">

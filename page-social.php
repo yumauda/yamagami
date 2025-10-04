@@ -1,8 +1,6 @@
 <?php get_header(); ?>
+
 <main class="p-bg--social">
-  <!-- <figure class="dummy">
-    <img src="<?php echo get_template_directory_uri() ?>/images/common/social_pc.jpg" alt="">
-  </figure> -->
   <section class="p-page-mv">
     <div class="l-inner">
       <div class="p-page-mv__content">

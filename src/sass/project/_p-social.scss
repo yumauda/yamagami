@@ -71,7 +71,7 @@
 
 .p-social__block::before {
   position: absolute;
-  content: attr(data-number)"";
+  content: attr(data-number) "";
   background: #7cf513;
   width: rem(60);
   height: rem(60);
@@ -184,5 +184,8 @@
   margin-top: rem(60);
 }
 .p-social__benefits {
+  margin-top: rem(60);
+}
+.p-social__recruit {
   margin-top: rem(60);
 }

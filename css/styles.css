@@ -536,6 +536,19 @@ select::-ms-expand {
   padding-bottom: 2.5rem;
 }
 
+.p-bg--recruit {
+  background: url(../images/common/bg_recruit.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
+}
+
 .p-event {
   background: url(../images/common/event_bg.jpg);
   background-repeat: no-repeat;
@@ -925,6 +938,188 @@ select::-ms-expand {
 .p-event__support {
   margin-top: 58px;
   margin-top: 3.625rem;
+}
+
+.p-event__flow {
+  margin-top: 72px;
+  margin-top: 4.5rem;
+}
+
+.p-flow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  gap: 0.9375rem;
+  position: relative;
+}
+
+.p-flow::before {
+  position: absolute;
+  content: "";
+  background: #7CF513;
+  width: 90%;
+  height: 60px;
+  height: 3.75rem;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.p-flow__list {
+  background: #000;
+  border: 2px solid #7cf513;
+  border-radius: 0.625rem;
+  padding: 40px;
+  padding: 2.5rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.p-flow__list::before {
+  position: absolute;
+  content: attr(data-num) "";
+  background: #7cf513;
+  width: 60px;
+  width: 3.75rem;
+  height: 58px;
+  height: 3.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -2px;
+  top: -0.125rem;
+  left: -2px;
+  left: -0.125rem;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #000;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.1em;
+  border-top-left-radius: 10px;
+  border-top-left-radius: 0.625rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 0.625rem;
+}
+
+.p-flow__list--last::before {
+  position: absolute;
+  content: attr(data-num) "";
+  background: #000;
+  width: 60px;
+  width: 3.75rem;
+  height: 58px;
+  height: 3.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -2px;
+  top: -0.125rem;
+  left: -2px;
+  left: -0.125rem;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.1em;
+  border-top-left-radius: 10px;
+  border-top-left-radius: 0.625rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 0.625rem;
+}
+
+.p-flow__list--last {
+  background: #7cf513;
+}
+
+.p-flow__top {
+  text-align: center;
+}
+
+.p-flow__title {
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.p-flow__title--last {
+  color: #000;
+}
+
+.p-flow__arrow img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-flow__img {
+  margin-top: auto;
+  padding-top: 16px;
+  padding-top: 1rem;
+}
+
+.p-flow__img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.mt36 {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+.p-flow__smallTitle {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #7cf513;
+  letter-spacing: 0.1em;
+}
+
+.p-flow__text {
+  margin-top: 40px;
+  margin-top: 2.5rem;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
 }
 
 .p-footer {
@@ -1762,6 +1957,7 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 2px solid #000;
   height: 80px;
   height: 5rem;
   gap: 20px;
@@ -2931,6 +3127,82 @@ input::placeholder {
   color: #fff;
 }
 
+@media screen and (min-width: 768px) {
+  .p-recruit__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.p-recruit__row + .p-recruit__row {
+  margin-top: 4px;
+  margin-top: 0.25rem;
+}
+
+.p-recruit__dt {
+  background: #7cf513;
+  padding: 16px 20px;
+  padding: 1rem 1.25rem;
+  color: #000;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  border-radius: 0.25rem;
+}
+@media screen and (min-width: 768px) {
+  .p-recruit__dt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .p-recruit__dd {
+    padding: 1rem 1.25rem;
+  }
+}
+
+.p-recruit__dd-text {
+  color: #000;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.p-recruit__dd-text--point {
+  color: #000;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+  position: relative;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+}
+
+.p-recruit__dd-text--point::before {
+  position: absolute;
+  content: "";
+  background: #7cf513;
+  width: 8px;
+  width: 0.5rem;
+  height: 8px;
+  height: 0.5rem;
+  border-radius: 9999px;
+  left: 0;
+  top: 10px;
+  top: 0.625rem;
+}
+
 .p-salary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -3627,6 +3899,11 @@ input::placeholder {
 }
 
 .p-social__benefits {
+  margin-top: 60px;
+  margin-top: 3.75rem;
+}
+
+.p-social__recruit {
   margin-top: 60px;
   margin-top: 3.75rem;
 }

@@ -1,8 +1,6 @@
 <?php get_header(); ?>
+
 <main class="p-bg--message">
-  <!--  <figure class="dummy">
-    <img src="<?php echo get_template_directory_uri() ?>/images/common/message_pc.jpg" alt="">
-  </figure> -->
   <section class="p-greeting">
     <div class="l-inner">
       <div class="p-greeting__content">
