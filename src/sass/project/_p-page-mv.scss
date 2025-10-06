@@ -3,6 +3,20 @@
 .p-page-mv {
   padding-top: rem(20);
   padding-bottom: rem(40);
+  position: relative;
+  padding-left: rem(20);
+  padding-right: rem(20);
+}
+.p-page-mv::before {
+  position: absolute;
+  content: "";
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: rem(10);
+  top: rem(20);
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .p-page-mv__content {
@@ -65,7 +79,8 @@
   align-items: center;
   justify-content: center;
   gap: rem(8);
-  margin-top: rem(60);
+  margin-top: rem(40);
+  padding-bottom: rem(40);
 }
 
 .p-page-mv__btn {

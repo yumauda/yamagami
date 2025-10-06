@@ -8,11 +8,42 @@
         </figure>
         <div class="p-page-mv__detail">
           <h2 class="p-page-mv__title">募集要項</h2>
-          <p class="p-page-mv__en">Benefits & Workplace Culture</p>
+          <p class="p-page-mv__en">Recruitment Information</p>
         </div>
       </div>
+
     </div>
   </section>
+  <div class="p-page-mv__btn-wrapper">
+    <a href="#" class="p-page-mv__btn">
+      <div class="p-page-mv__btn-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+          <g transform="translate(-1465 -60)">
+            <g id="arrow-right" transform="translate(1501.392 53.608) rotate(90)">
+              <path d="M8.913,21.392H33.871" fill="none" stroke="#7cf513" stroke-linejoin="round" stroke-width="3.565" />
+              <path d="M21.392,8.913,33.871,21.392,21.392,33.871" fill="none" stroke="#7cf513" stroke-width="3.565" />
+            </g>
+            <rect id="AdobeStock_1544788716" width="30" height="30" transform="translate(1495 60) rotate(90)" fill="none" />
+          </g>
+        </svg>
+      </div>
+      <p class="p-page-mv__btn-text">募集要項</p>
+    </a>
+    <a href="#" class="p-page-mv__btn">
+      <div class="p-page-mv__btn-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+          <g transform="translate(-1465 -60)">
+            <g id="arrow-right" transform="translate(1501.392 53.608) rotate(90)">
+              <path d="M8.913,21.392H33.871" fill="none" stroke="#7cf513" stroke-linejoin="round" stroke-width="3.565" />
+              <path d="M21.392,8.913,33.871,21.392,21.392,33.871" fill="none" stroke="#7cf513" stroke-width="3.565" />
+            </g>
+            <rect id="AdobeStock_1544788716" width="30" height="30" transform="translate(1495 60) rotate(90)" fill="none" />
+          </g>
+        </svg>
+      </div>
+      <p class="p-page-mv__btn-text">採用フロー</p>
+    </a>
+  </div>
   <section class="p-social">
     <div class="l-inner">
       <div class="p-social__content">

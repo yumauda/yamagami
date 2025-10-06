@@ -13,7 +13,10 @@
 
 .p-social__content {
 }
+.p-social__content--about {
+  display: flex;
 
+}
 .p-social__title {
   text-align: center;
 }
@@ -188,4 +191,22 @@
 }
 .p-social__recruit {
   margin-top: rem(60);
+}
+.p-social__about-img {
+  max-width: rem(700);
+  width: 100%;
+}
+.p-social__about-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.p-social__about-wrapper {
+  display: flex;
+  gap: rem(97);
+  margin-top: rem(60);
+}
+.p-social__top-right--about {
+  margin-top: initial;
 }
