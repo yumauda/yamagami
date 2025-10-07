@@ -3990,6 +3990,13 @@ input::placeholder {
   border: 2px solid #000;
 }
 
+.p-social--company {
+  background: url(../images/common/section_social_bg_company.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .p-social__content--about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4272,6 +4279,16 @@ input::placeholder {
   margin-top: initial;
 }
 
+.mt70 {
+  margin-top: 70px;
+  margin-top: 4.375rem;
+}
+
+.p-social__strength {
+  margin-top: 170px;
+  margin-top: 10.625rem;
+}
+
 .p-storks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4336,6 +4353,85 @@ input::placeholder {
   color: #000;
   line-height: 1.7916666667;
   letter-spacing: 0.1em;
+}
+
+.p-strength {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  gap: 1.25rem;
+  position: relative;
+  z-index: 3;
+}
+
+.p-strength__list {
+  border: 10px solid #7cf513;
+  border: 0.625rem solid #7cf513;
+  border-radius: 0.625rem;
+  padding: 48px;
+  padding: 3rem;
+  background: #eaeaea;
+  position: relative;
+}
+
+.p-strength__list::before {
+  position: absolute;
+  content: "";
+  background: #7cf513;
+  width: 280px;
+  width: 17.5rem;
+  height: 280px;
+  height: 17.5rem;
+  top: -140px;
+  top: -8.75rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 9999px;
+  z-index: -1;
+}
+
+.p-strength__list::after {
+  position: absolute;
+  content: "";
+  background: url(../images/common/strength_text.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 195/63;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 194px;
+  width: 12.125rem;
+  height: auto;
+  top: -120px;
+  top: -7.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.p-strength__text {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #000;
+  line-height: 1.7916666667;
+  text-align: center;
+}
+
+.p-strength__lists-title {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -76px;
+  top: -4.75rem;
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #000;
 }
 
 .p-support {

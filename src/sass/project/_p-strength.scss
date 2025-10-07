@@ -1,0 +1,62 @@
+@use "global" as *;
+
+.p-strength {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: rem(20);
+  position: relative;
+  z-index: 3;
+}
+
+.p-strength__list {
+  border: rem(10) solid #7cf513;
+  border-radius: rem(10);
+  padding: rem(48);
+  background: #eaeaea;
+  position: relative;
+}
+.p-strength__list::before {
+  position: absolute;
+  content: "";
+  background: #7cf513;
+  width: rem(280);
+  height: rem(280);
+  top: rem(-140);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 9999px;
+  z-index: -1;
+}
+.p-strength__list::after {
+  position: absolute;
+  content: "";
+  background: url(../images/common/strength_text.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 195 / 63;
+  object-fit: cover;
+  width: rem(194);
+  height: auto;
+  top: rem(-120);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-strength__text {
+  font-size: rem(24);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #000;
+  line-height: calc(43 / 24);
+  text-align: center;
+}
+.p-strength__lists-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: rem(-76);
+  font-size: rem(36);
+  font-weight: 700;
+  color: #000;
+}

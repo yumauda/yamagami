@@ -10,7 +10,12 @@
   padding-bottom: rem(160);
   border: 2px solid #000;
 }
-
+.p-social--company {
+  background: url(../images/common/section_social_bg_company.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .p-social__content {
 }
 .p-social__content--about {
@@ -209,4 +214,10 @@
 }
 .p-social__top-right--about {
   margin-top: initial;
+}
+.mt70 {
+  margin-top: rem(70);
+}
+.p-social__strength {
+  margin-top: rem(170);
 }

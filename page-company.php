@@ -71,7 +71,7 @@
       <p class="p-page-mv__btn-text">伝統商材</p>
     </a>
   </div>
-  <section class="p-social">
+  <section class="p-social p-social--company">
     <div class="l-inner">
       <div class="p-social__content">
         <div class="p-social__title">
@@ -311,6 +311,35 @@
         <p class="p-event__center-title mt60"><span>消費者</span>は直接<span>山上</span>を知らなくても、<br>誰かの暮らしに<span>必ず山上の商材</span>がある</p>
 
 
+      </div>
+    </div>
+  </section>
+  <section class="p-social mt40">
+    <div class="l-inner">
+      <div class="p-social__content">
+        <div class="p-social__title">
+          <h3 class="c-section-title">山上の強み</h3>
+          <h4 class="c-subTitle mt70">
+            <span class="c-subTitle__en">OUR STRENGTHS</span>
+            <span class="c-subTitle__ja">私たちの強み</span>
+          </h4>
+        </div>
+        <div class="p-social__strength">
+          <ul class="p-strength">
+            <li class="p-strength__list">
+              <p class="p-strength__lists-title">商品力</p>
+              <p class="p-strength__text">約15万点以上の商品を取扱い<br>幅広さが現場の信頼につながる</p>
+            </li>
+            <li class="p-strength__list">
+              <p class="p-strength__lists-title">提案力</p>
+              <p class="p-strength__text">経験＋データ＋トレンド<br>に基づいた空間提案</p>
+            </li>
+            <li class="p-strength__list">
+              <p class="p-strength__lists-title">チーム力</p>
+              <p class="p-strength__text">自社物流・協力施工業者との<br>連携で、案件対応力が高い</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
