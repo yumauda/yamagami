@@ -314,31 +314,122 @@
       </div>
     </div>
   </section>
-  <section class="p-social mt40">
+  <section class="p-social p-social--strength mt40">
     <div class="l-inner">
       <div class="p-social__content">
         <div class="p-social__title">
           <h3 class="c-section-title">山上の強み</h3>
-          <h4 class="c-subTitle mt70">
-            <span class="c-subTitle__en">OUR STRENGTHS</span>
-            <span class="c-subTitle__ja">私たちの強み</span>
-          </h4>
         </div>
-        <div class="p-social__strength">
-          <ul class="p-strength">
-            <li class="p-strength__list">
-              <p class="p-strength__lists-title">商品力</p>
-              <p class="p-strength__text">約15万点以上の商品を取扱い<br>幅広さが現場の信頼につながる</p>
-            </li>
-            <li class="p-strength__list">
-              <p class="p-strength__lists-title">提案力</p>
-              <p class="p-strength__text">経験＋データ＋トレンド<br>に基づいた空間提案</p>
-            </li>
-            <li class="p-strength__list">
-              <p class="p-strength__lists-title">チーム力</p>
-              <p class="p-strength__text">自社物流・協力施工業者との<br>連携で、案件対応力が高い</p>
-            </li>
-          </ul>
+        <div class="p-social__strength-wrapper">
+          <div class="p-social__strength-titleWrapper">
+            <h4 class="c-subTitle mt70">
+              <span class="c-subTitle__en">OUR STRENGTHS</span>
+              <span class="c-subTitle__ja">私たちの強み</span>
+            </h4>
+          </div>
+          <div class="p-social__strength">
+            <ul class="p-strength">
+              <li class="p-strength__list">
+                <p class="p-strength__lists-title">商品力</p>
+                <p class="p-strength__text">約15万点以上の商品を取扱い<br>幅広さが現場の信頼につながる</p>
+              </li>
+              <li class="p-strength__list">
+                <p class="p-strength__lists-title">提案力</p>
+                <p class="p-strength__text">経験＋データ＋トレンド<br>に基づいた空間提案</p>
+              </li>
+              <li class="p-strength__list">
+                <p class="p-strength__lists-title">チーム力</p>
+                <p class="p-strength__text">自社物流・協力施工業者との<br>連携で、案件対応力が高い</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-social__strength-wrapper">
+          <div class="p-social__strength-titleWrapper">
+            <h4 class="c-subTitle mt70">
+              <span class="c-subTitle__en">HISTORY</span>
+              <span class="c-subTitle__ja">創業からの歩みと今</span>
+            </h4>
+          </div>
+          <div class="p-social__history">
+            <div class="p-history">
+              <div class="p-history__title-wrapper">
+                <p class="p-history__title">襖紙1枚から始まった、山上の挑戦</p>
+              </div>
+              <div class="p-history__content">
+                <div class="p-history__row">
+                  <div class="p-history__year-wrapper">
+                    <p class="p-history__year">1938</p>
+                    <span class="p-history__box"></span>
+                  </div>
+                  <div class="p-history__text-wrapper">
+                    <p class="p-history__text">襖紙販売からスタート</p>
+                  </div>
+                </div>
+                <div class="p-history__row">
+                  <div class="p-history__year-wrapper">
+                    <p class="p-history__year">1960</p>
+                    <p class="p-history__year-ja">年代</p>
+                    <span class="p-history__box"></span>
+                  </div>
+                  <div class="p-history__text-wrapper">
+                    <p class="p-history__text">住宅建設ラッシュとともに全国へ拡大</p>
+                  </div>
+                </div>
+                <div class="p-history__row">
+                  <div class="p-history__year-wrapper">
+                    <p class="p-history__year">2000</p>
+                    <p class="p-history__year-ja">年代</p>
+                    <span class="p-history__box"></span>
+                  </div>
+                  <div class="p-history__text-wrapper">
+                    <p class="p-history__text">物流拠点拡張／特殊商材も取扱</p>
+                  </div>
+                </div>
+                <div class="p-history__row">
+                  <div class="p-history__year-wrapper">
+                    <p class="p-history__year">2025</p>
+                    <span class="p-history__box"></span>
+                  </div>
+                  <div class="p-history__text-wrapper">
+                    <p class="p-history__text">ストック住宅、SDGs意識など<br>新しい市場へも対応中</p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-history__bottom-textWrapper">
+                <p class="p-history__bottom-text">The Challenge <span>Go</span>es On.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-social__strength-wrapper">
+          <div class="p-social__strength-titleWrapper">
+            <h4 class="c-subTitle mt70">
+              <span class="c-subTitle__en">VISION</span>
+              <span class="c-subTitle__ja">山上が目指す「あるべき姿」</span>
+            </h4>
+          </div>
+          <figure class="p-social__vision-img">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/vision_img.png" alt="山上が目指す「あるべき姿」" width="1400" height="440">
+          </figure>
+          <div class="p-social__vision-textWrapper">
+            <p class="p-social__vision-text">私たちは単なるインテリアの卸売商社ではありません<br>
+              暮らしや空間に本当に必要な“快適さの本質”を見極め、新しい価値を提案し続けます</p>
+          </div>
+        </div>
+        <div class="p-social__strength-wrapper">
+          <div class="p-social__strength-titleWrapper">
+            <h4 class="c-subTitle mt70">
+              <span class="c-subTitle__en">MISSION</span>
+              <span class="c-subTitle__ja">山上が目指す「あるべき姿」</span>
+            </h4>
+          </div>
+          <figure class="p-social__mission-img">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/mission_img.png" alt="山上が目指す「あるべき姿」" width="1400" height="440">
+          </figure>
+          <div class="p-social__vision-textWrapper">
+            <p class="p-social__vision-text">山上の使命は、伝統を未来へつなぐこと</p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,125 @@
+@use "global" as *;
+
+.p-history {
+  background: #eaeaea;
+  border: rem(10) solid #7cf513;
+  border-radius: rem(10);
+  padding-top: rem(80);
+  padding-bottom: rem(80);
+  padding-left: rem(40);
+}
+
+.p-history__title-wrapper {
+  text-align: center;
+}
+
+.p-history__title {
+  font-size: rem(60);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #000;
+  position: relative;
+  display: inline-block;
+}
+.p-history__title::before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: rem(40);
+  bottom: rem(8);
+  left: 0;
+  z-index: -1;
+}
+
+.p-history__content {
+  max-width: rem(730);
+  width: 100%;
+  margin-inline: auto;
+  margin-top: rem(33);
+}
+
+.p-history__row {
+  display: flex;
+  gap: rem(40);
+  position: relative;
+}
+.p-history__row::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0; /* top:0; bottom:0; left:0; */
+  width: rem(6);
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    #7cf513 0 6px,
+    /* 線分の長さ 6 */ transparent 6px 10px /* 6 + 間隔4 = 10 */
+  );
+  top: rem(44);
+  left: rem(203);
+}
+.p-history__row:last-child::before {
+  display: none;
+}
+.p-history__row + .p-history__row {
+  padding-top: rem(20);
+}
+
+.p-history__year-wrapper {
+  display: flex;
+  align-items: center;
+  width: rem(226);
+}
+
+.p-history__year {
+  font-size: rem(40);
+  font-weight: 700;
+  font-family: $second-font-family;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.p-history__text-wrapper {
+}
+
+.p-history__text {
+  font-size: rem(24);
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.1em;
+  line-height: calc(43 / 24);
+}
+
+.p-history__year-ja {
+  font-size: rem(16);
+  color: #000;
+  text-orientation: vertical-lr;
+  writing-mode: vertical-lr;
+}
+
+.p-history__bottom-textWrapper {
+  text-align: center;
+  margin-top: rem(40);
+}
+
+.p-history__bottom-text {
+  font-size: rem(80);
+  font-family: $second-font-family;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #7cf513;
+  text-transform: uppercase;
+}
+.p-history__bottom-text span {
+  color: #000;
+}
+.p-history__box {
+  background: #7cf513;
+  width: rem(40);
+  height: rem(40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}

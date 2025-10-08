@@ -16,11 +16,16 @@
   background-position: center;
   background-size: cover;
 }
+.p-social--strength {
+  background: url(../images/common/section_social_bg_strength.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .p-social__content {
 }
 .p-social__content--about {
   display: flex;
-
 }
 .p-social__title {
   text-align: center;
@@ -220,4 +225,48 @@
 }
 .p-social__strength {
   margin-top: rem(170);
+}
+.p-social__strength-wrapper + .p-social__strength-wrapper {
+  margin-top: rem(160);
+}
+.p-social__strength-titleWrapper {
+  text-align: center;
+}
+.p-social__vision-img {
+  max-width: rem(1400);
+  margin-top: rem(60);
+  width: 100%;
+  margin-inline: auto;
+}
+.p-social__vision-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.p-social__mission-img {
+  max-width: rem(870);
+  margin-top: rem(60);
+  width: 100%;
+  margin-inline: auto;
+}
+.p-social__mission-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.p-social__vision-textWrapper {
+  text-align: center;
+  margin-top: rem(60);
+}
+
+.p-social__vision-text {
+  font-size: rem(24);
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.1em;
+}
+.p-social__history {
+  margin-top: rem(60);
 }
