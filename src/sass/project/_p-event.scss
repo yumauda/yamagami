@@ -30,6 +30,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.p-event__top--traditional {
+  display: block;
+}
 
 .p-event__top-right {
   margin-top: rem(120);

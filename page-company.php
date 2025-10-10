@@ -434,6 +434,64 @@
       </div>
     </div>
   </section>
+  <section class="p-event p-event--company">
+    <div class="l-inner">
+      <div class="p-event__content">
+        <div class="p-event__title">
+          <h3 class="c-section-title c-section-title--white">伝統商材</h3>
+        </div>
+        <div class="p-event__top p-event__top--traditional">
+          <h4 class="c-subTitle">
+            <span class="c-subTitle__en c-subTitle__en--white">Preserving Traditional<br>Materials</span>
+            <span class="c-subTitle__ja c-subTitle__ja--white">守るべき伝統商材</span>
+          </h4>
+
+        </div>
+        <div class="p-event__traditional">
+          <ul class="p-traditional">
+            <li class="p-traditional__list">
+              <figure class="p-traditional__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/traditional_1.jpg" alt="金属の未来をリファイン" width="431" height="382">
+              </figure>
+              <div class="p-traditional__detail">
+                <p class="p-traditional__small">伝統とモダンをつなぐ</p>
+                <p class="p-traditional__title"><span>箔</span>の壁紙</p>
+                    <p class="p-traditional__text"><span>世界で唯一</span>箔を作る技術を持つ日本<br>
+                      インテリアとして金箔壁紙を<span>普及</span>する</p>
+                <p class="p-traditional__bottom">あなたの提案で、<br>文化財クラスの素材が空間に息づく</p>
+              </div>
+            </li>
+            <li class="p-traditional__list">
+              <figure class="p-traditional__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/traditional_1.jpg" alt="金属の未来をリファイン" width="431" height="382">
+              </figure>
+              <div class="p-traditional__detail">
+                <p class="p-traditional__small">伝統とモダンをつなぐ</p>
+                <p class="p-traditional__title"><span>箔</span>の壁紙</p>
+                    <p class="p-traditional__text"><span>世界で唯一</span>箔を作る技術を持つ日本<br>
+                      インテリアとして金箔壁紙を<span>普及</span>する</p>
+                <p class="p-traditional__bottom">あなたの提案で、<br>文化財クラスの素材が空間に息づく</p>
+              </div>
+            </li>
+            <li class="p-traditional__list">
+              <figure class="p-traditional__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/traditional_1.jpg" alt="金属の未来をリファイン" width="431" height="382">
+              </figure>
+              <div class="p-traditional__detail">
+                <p class="p-traditional__small">伝統とモダンをつなぐ</p>
+                <p class="p-traditional__title"><span>箔</span>の壁紙</p>
+                    <p class="p-traditional__text"><span>世界で唯一</span>箔を作る技術を持つ日本<br>
+                      インテリアとして金箔壁紙を<span>普及</span>する</p>
+                <p class="p-traditional__bottom">あなたの提案で、<br>文化財クラスの素材が空間に息づく</p>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
 
